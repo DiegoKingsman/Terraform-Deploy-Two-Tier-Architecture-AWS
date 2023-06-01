@@ -10,7 +10,7 @@ variable "ami_id" {
 }
 
 variable "vpc_name" {
-  description = "Name for Custom VPC"
+  description = "vcpdiego"
   type        = string
   default     = "lastproject_vpc"
 }
