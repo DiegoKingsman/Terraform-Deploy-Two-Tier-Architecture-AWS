@@ -16,25 +16,41 @@ By the end of this project, you will have a deep understanding of how to use Ter
 You will also learn how to automate the deployment process with Terraform Cloud and ensure that changes are rolled out efficiently and reliably. 
 Without further ado, let’s dive in and start building!
 
+
 Project Outline:
 
 Create a custom VPC with:
 
 2 public subnets for the Web Server Tier
+
 2 private subnets for the RDS Tier
+
 A public route table
+
 A private route table
+
 Create an Auto Scaling Group to launch an EC2 Instance with an Apache web server in each public subnet in the web tier. Configure necessary security groups.
+
 Create an Internet-facing Application Load Balancer targeting web servers.
+
 Create an ALB security group with needed permissions and modifications needed.
+
 Create one RDS MySQL Instance (micro) in the private RDS subnets with appropriate security groups.
+
 Deploy the architecture using Terraform Cloud as a CI/CD tool to check the build.
+
 
 Prerequisites:
 
+
 An AWS Admin Account with Access Key and Secret Access Key
+
 An AWS Cloud9 Environment
+
 A free Terraform Cloud Account
+
 A Github Account
+
 Familiarity with Linux and Git commands
+
 In your chose IDE (I am using Cloud9) Lets write the code that will launch our infrastructure.
