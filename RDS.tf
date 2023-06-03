@@ -24,7 +24,3 @@ resource "aws_db_instance" "projectdbinstance" {
   skip_final_snapshot    = true
 }
 
-output "Project-db-instance-endpoint" {
-  description = "The Project DB instance endpoint"
-  value       = aws_db_instance.projectdbinstance.endpoint
-}
