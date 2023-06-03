@@ -1,8 +1,13 @@
 Terraform: Deploy A Two-Tier Architecture With AWS. 
 Configuring a CI/CD Pipeline on Terraform Cloud
 
+Instructions step by step for this project on:
+
+https://towardsaws.com/terraform-deploy-a-two-tier-architecture-with-aws-configuring-a-ci-cd-pipeline-on-terraform-cloud-b46d3150d6e3
+
+
 In this project, we will leverage the power of Terraform Cloud, AWS, and Github to create a robust CI/CD pipeline. 
-Through a step-by-step approach, we will demonstrate how to create Terraform configuration files and implement a highly scalable and available two-tier architecture.
+We will demonstrate how to create Terraform configuration files and implement a highly scalable and available two-tier architecture.
 
 The architecture we will build consists of a public network and a private network, known as the first and second tiers respectively. 
 The first tier is the user-facing network, providing access to the web application. On the other hand, the second tier serves as the data center, offering business 
