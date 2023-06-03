@@ -17,7 +17,7 @@ You will also learn how to automate the deployment process with Terraform Cloud 
 Without further ado, let’s dive in and start building!
 
 
-Project Outline:
+- Project Outline:
 
 Create a custom VPC with:
 
@@ -40,7 +40,7 @@ Create one RDS MySQL Instance (micro) in the private RDS subnets with appropriat
 Deploy the architecture using Terraform Cloud as a CI/CD tool to check the build.
 
 
-Prerequisites:
+- Prerequisites:
 
 
 An AWS Admin Account with Access Key and Secret Access Key
