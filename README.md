@@ -1,9 +1,5 @@
-Terraform: Deploy A Two-Tier Architecture With AWS. 
-Configuring a CI/CD Pipeline on Terraform Cloud
-
-Instructions step by step for this project on:
-
-https://towardsaws.com/terraform-deploy-a-two-tier-architecture-with-aws-configuring-a-ci-cd-pipeline-on-terraform-cloud-b46d3150d6e3
+- Terraform: Deploy A Two-Tier Architecture With AWS. 
+Configuring a CI/CD Pipeline on Terraform Cloud -
 
 
 In this project, we will leverage the power of Terraform Cloud, AWS, and Github to create a robust CI/CD pipeline. 
@@ -59,3 +55,9 @@ A Github Account
 Familiarity with Linux and Git commands
 
 In your chose IDE (I am using Cloud9) Lets write the code that will launch our infrastructure.
+
+
+- Instructions step by step for this project on:
+
+
+https://towardsaws.com/terraform-deploy-a-two-tier-architecture-with-aws-configuring-a-ci-cd-pipeline-on-terraform-cloud-b46d3150d6e3
